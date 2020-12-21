@@ -1,31 +1,57 @@
-<!-- Content page -->
-<section class="bg0 p-t-104 p-b-116">
-    <div class="container">
-        <div class="flex-w flex-tr">
-        <div class="size-210 bor10 flex-w flex-col-m p-lr-93 p-tb-30 p-lr-15-lg w-full-md">
-                <img src="vista/presentacion/images/logo_adri.jpeg" width="90%">
+<?php
+if (isset($_SESSION["Administrador"])) {
+  header("location:Administrador");
+}
+?>
+
+<body class="hold-transition login-page" style="background-image: linear-gradient(90deg, red, #FE93A7);">
+  <div class="login-box">
+    <!-- /.login-logo -->
+    <div class="card card-outline card-primary">
+      <div class="card-header text-center">
+        <a href="" class="h1" style="font-family: 'Pacifico', cursive; font-size: 35px; margin-bottom: 10px; color: #303433;"><b>Adri Store</b></a>
+      </div>
+      <div class="card-body">
+        <form role="form" method="POST" id="formIngresarAdministrador">
+          <div class="input-group mb-3">
+            <input type="email" class="form-control" id="ingresarCorreoAdministrador" name="ingresarCorreoAdministrador" placeholder="Correo">
+            <div class="input-group-append">
+              <div class="input-group-text">
+                <span class="fas fa-envelope"></span>
+              </div>
             </div>
-            <div class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
-                <form role="form" method="POST" id="formIngresarAdministrador">
-                    <h4 class="mtext-105 cl2 txt-center p-b-30">
-                        Administrador
-                    </h4>
-
-                    <div class="bor8 m-b-20 how-pos4-parent">
-                        <input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" id="ingresarCorreoAdministrador" name="ingresarCorreoAdministrador" placeholder="Tu correo electronico">
-                        <img class="how-pos4 pointer-none" src="vista/presentacion/images/icons/email.png" alt="ICON">
-                    </div>
-
-                    <div class="bor8 m-b-30 how-pos4-parent">
-                        <input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="password" id="ingresarContraseniaAdministrador" name="ingresarContraseniaAdministrador" placeholder="***********">
-                        <img class="how-pos4 pointer-none" src="vista/presentacion/images/icons/candado.png" alt="ICON">
-                    </div>
-
-                    <button type="submit" class="flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer">
-                        Ingresar
-                    </button>
-                </form>
+          </div>
+          <div class="input-group mb-3">
+            <input type="password" class="form-control" id="ingresarContraseniaAdministrador" name="ingresarContraseniaAdministrador" placeholder="Contrase&ntilde;a">
+            <div class="input-group-append">
+              <div class="input-group-text">
+                <span class="fas fa-lock"></span>
+              </div>
             </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <button type="submit" class="btn btn-primary btn-block">Iniciar sesi&oacute;n</button>
+            </div>
+            <!-- /.col -->
+            <div class="col-6"></div>
+            <!-- /.col -->
+          </div>
+        </form>
+        <br>
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-8">
+            <p class="mb-3">
+              <a href="forgot-password.html">Has olvidado su contrase&ntilde;a</a>
+            </p>
+          </div>
+          <div class="col-2"></div>
         </div>
+
+      </div>
+      <!-- /.card-body -->
     </div>
-</section>
+    <!-- /.card -->
+  </div>
+  <!-- /.login-box -->

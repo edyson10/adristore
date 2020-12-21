@@ -19,7 +19,7 @@ class Negocio
     private function validarPestañaBarraNavegacion($pestaña)
     {
         $exito = false;
-        $pestañas = array("Inicio","Contacto","Privado");
+        $pestañas = array("Inicio","Contacto");
         if(in_array($pestaña,$pestañas))
         {
             $exito = true;

@@ -2,39 +2,57 @@
 <footer class="bg3 p-t-75 p-b-32">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 col-lg-3 p-b-50">
+            <div class="col-sm-6 col-lg-4 p-b-50">
                 <h4 class="stext-301 cl0 p-b-30">
-                    Categories
+                    Categorias
                 </h4>
 
                 <ul>
                     <li class="p-b-10">
                         <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Women
+                            Niño
                         </a>
                     </li>
 
                     <li class="p-b-10">
                         <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Men
+                            Niña
                         </a>
                     </li>
 
                     <li class="p-b-10">
                         <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Shoes
+                            Hombre
                         </a>
                     </li>
 
                     <li class="p-b-10">
                         <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Watches
+                            Mujer
+                        </a>
+                    </li>
+
+                    <li class="p-b-10">
+                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                            Zapatos
+                        </a>
+                    </li>
+
+                    <li class="p-b-10">
+                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                            Maquillaje
+                        </a>
+                    </li>
+
+                    <li class="p-b-10">
+                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                            Accesorios
                         </a>
                     </li>
                 </ul>
             </div>
 
-            <div class="col-sm-6 col-lg-3 p-b-50">
+            <div class="col-sm-6 col-lg-4 p-b-50">
                 <h4 class="stext-301 cl0 p-b-30">
                     Help
                 </h4>
@@ -66,13 +84,13 @@
                 </ul>
             </div>
 
-            <div class="col-sm-6 col-lg-3 p-b-50">
+            <div class="col-sm-6 col-lg-4 p-b-50">
                 <h4 class="stext-301 cl0 p-b-30">
                     GET IN TOUCH
                 </h4>
 
                 <p class="stext-107 cl7 size-201">
-                    Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879
+                ¿Alguna pregunta? Háganos saber en la tienda en la Calle 17 # 7-70 Barrio La Libertad, C&uacute;cucta, Norte de Santander o ll&aacute;menos al (+57) 314 619 8497
                 </p>
 
                 <div class="p-t-27">
@@ -84,37 +102,20 @@
                         <i class="fa fa-instagram"></i>
                     </a>
 
-                    <a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
-                        <i class="fa fa-pinterest-p"></i>
+                    <a href="https://wa.me/573146198497?text=Me%20interesa%20el%20el%20articulo%20que%20estás%20vendiendo" target="_blank" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+                        <i class="fa fa-whatsapp"></i>
                     </a>
                 </div>
             </div>
 
-            <div class="col-sm-6 col-lg-3 p-b-50">
-                <h4 class="stext-301 cl0 p-b-30">
-                    Newsletter
-                </h4>
-
-                <form>
-                    <div class="wrap-input1 w-full p-b-4">
-                        <input class="input1 bg-none plh1 stext-107 cl7" type="text" name="email" placeholder="email@example.com">
-                        <div class="focus-input1 trans-04"></div>
-                    </div>
-
-                    <div class="p-t-18">
-                        <button class="flex-c-m stext-101 cl0 size-103 bg1 bor1 hov-btn2 p-lr-15 trans-04">
-                            Subscribe
-                        </button>
-                    </div>
-                </form>
-            </div>
+            
         </div>
 
         <div class="p-t-40">
             <p class="stext-107 cl6 txt-center">
                 2020 - <script>
                     document.write(new Date().getFullYear());
-                </script> &copy; Adri Store. Todos los derechos reservados | Dieñado con <i class="fa fa-heart-o" aria-hidden="true"></i> 
+                </script>Copyright &copy; Adri Store. Todos los derechos reservados | Dieñado con <i class="fa fa-heart-o" aria-hidden="true"></i> 
                 <a href="http://loyalsoft.co/" target="_blank"> Loyalsoft S.A.S.</a>
             </p>
         </div>

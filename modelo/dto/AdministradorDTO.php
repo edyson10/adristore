@@ -65,7 +65,6 @@ class AdministradorDTO
     {
         $this->contrasenia = $contrasenia;
     }
-
 }
 
 ?>

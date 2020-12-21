@@ -29,10 +29,10 @@ class ajax
 
         if ($exito) {
             session_start();
-            $_SESSION["Cliente"] = serialize($existe);
+            $_SESSION["Administrador"] = serialize($existe);
             echo json_encode(array("exito" => true));
         } else {
-            echo json_encode(array("exito" => false, "error" => "No se econtro el cliente"));
+            echo json_encode(array("exito" => false, "error" => "No se encontro el administrador"));
         }
     }
 
