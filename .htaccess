@@ -6,3 +6,4 @@ RewriteEngine on
 RewriteRule ^(\w+)$ index.php?ubicacion=$1
 RewriteRule ^Producto=(\d+)$ index.php?ubicacion=verProducto&id=$1
 RewriteRule ^Inventario=(\d+)$ index.php?ubicacion=Inventario&id=$1
+
