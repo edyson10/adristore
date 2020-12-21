@@ -1,5 +1,5 @@
 <!-- Title page -->
-<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('vista/presentacion/ecommerce/images/bg-01.jpg');">
+<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('view/presentacion/ecommerce/images/bg-01.jpg');">
     <h2 class="ltext-105 cl0 txt-center" >
         Contacto
     </h2>
@@ -17,7 +17,7 @@
 
                     <div class="bor8 m-b-20 how-pos4-parent">
                         <input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" name="email" placeholder="Tu correo electronico">
-                        <img class="how-pos4 pointer-none" src="vista/presentacion/ecommerce/images/icons/icon-email.png" alt="ICON">
+                        <img class="how-pos4 pointer-none" src="view/presentacion/ecommerce/images/icons/icon-email.png" alt="ICON">
                     </div>
 
                     <div class="bor8 m-b-30">
@@ -63,21 +63,22 @@
                     </div>
                 </div>
 
-                <!--<div class="flex-w w-full">
-                        <span class="fs-18 cl5 txt-center size-211">
-                            <span class="lnr lnr-envelope"></span>
+                <!--
+                <div class="flex-w w-full">
+                    <span class="fs-18 cl5 txt-center size-211">
+                        <span class="lnr lnr-envelope"></span>
+                    </span>
+
+                    <div class="size-212 p-t-2">
+                        <span class="mtext-110 cl2">
+                            Sale Support
                         </span>
 
-                        <div class="size-212 p-t-2">
-                            <span class="mtext-110 cl2">
-                                Sale Support
-                            </span>
-
-                            <p class="stext-115 cl1 size-213 p-t-18">
-                                contact@example.com
-                            </p>
-                        </div>
-                    </div>-->
+                        <p class="stext-115 cl1 size-213 p-t-18">
+                            contact@example.com
+                        </p>
+                    </div>
+                </div>-->
             </div>
         </div>
     </div>

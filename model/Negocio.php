@@ -4,15 +4,15 @@ class Negocio
 {
     public function generarPlantilla()
     {
-        include 'vista/Plantilla.php';
+        include 'view/Plantilla.php';
     }
 
     public function generarEnlace($enlace)
     {
         if ($this->validarPestañaBarraNavegacion($enlace)) {
-            return 'vista/modulos/navegacion/' . $enlace . '.php';
+            return 'view/modulos/navegacion/' . $enlace . '.php';
         } else {
-            return 'vista/modulos/navegacion/Inicio.php';
+            return 'view/modulos/navegacion/Inicio.php';
         }
     }
 

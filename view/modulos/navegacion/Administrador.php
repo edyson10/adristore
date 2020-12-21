@@ -1,6 +1,6 @@
 <body class="hold-transition sidebar-mini layout-fixed">
     <div class="wrapper">
-        <?php include_once 'vista/modulos/menu.php'; ?>
+        <?php include_once 'view/modulos/menu.php'; ?>
 
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
@@ -211,8 +211,6 @@
                                 </div>
                             </div>
                             <!-- /.card -->
-
-                           
                         </section>
                         <!-- right col -->
                     </div>

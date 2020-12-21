@@ -6,50 +6,59 @@
                 <h4 class="stext-301 cl0 p-b-30">
                     Categorias
                 </h4>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <ul>
+                            <li class="p-b-10">
+                                <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                                    Niño
+                                </a>
+                            </li>
 
-                <ul>
-                    <li class="p-b-10">
-                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Niño
-                        </a>
-                    </li>
+                            <li class="p-b-10">
+                                <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                                    Niña
+                                </a>
+                            </li>
 
-                    <li class="p-b-10">
-                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Niña
-                        </a>
-                    </li>
+                            <li class="p-b-10">
+                                <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                                    Hombre
+                                </a>
+                            </li>
 
-                    <li class="p-b-10">
-                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Hombre
-                        </a>
-                    </li>
+                            <li class="p-b-10">
+                                <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                                    Mujer
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <ul>
+                            <li class="p-b-10">
+                                <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                                    Zapatos
+                                </a>
+                            </li>
 
-                    <li class="p-b-10">
-                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Mujer
-                        </a>
-                    </li>
+                            <li class="p-b-10">
+                                <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                                    Maquillaje
+                                </a>
+                            </li>
 
-                    <li class="p-b-10">
-                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Zapatos
-                        </a>
-                    </li>
+                            <li class="p-b-10">
+                                <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                                    Accesorios
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-                    <li class="p-b-10">
-                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Maquillaje
-                        </a>
-                    </li>
 
-                    <li class="p-b-10">
-                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Accesorios
-                        </a>
-                    </li>
-                </ul>
+
             </div>
 
             <div class="col-sm-6 col-lg-4 p-b-50">
@@ -90,7 +99,7 @@
                 </h4>
 
                 <p class="stext-107 cl7 size-201">
-                ¿Alguna pregunta? Háganos saber en la tienda en la Calle 17 # 7-70 Barrio La Libertad, C&uacute;cucta, Norte de Santander o ll&aacute;menos al (+57) 314 619 8497
+                    ¿Alguna pregunta? Háganos saber en la tienda en la Calle 17 # 7-70 Barrio La Libertad, C&uacute;cucta, Norte de Santander o ll&aacute;menos al (+57) 314 619 8497
                 </p>
 
                 <div class="p-t-27">
@@ -108,14 +117,14 @@
                 </div>
             </div>
 
-            
+
         </div>
 
         <div class="p-t-40">
             <p class="stext-107 cl6 txt-center">
                 2020 - <script>
                     document.write(new Date().getFullYear());
-                </script>Copyright &copy; Adri Store. Todos los derechos reservados | Dieñado con <i class="fa fa-heart-o" aria-hidden="true"></i> 
+                </script>Copyright &copy; Adri Store. Todos los derechos reservados | Dieñado con <i class="fa fa-heart-o" aria-hidden="true"></i>
                 <a href="http://loyalsoft.co/" target="_blank"> Loyalsoft S.A.S.</a>
             </p>
         </div>
