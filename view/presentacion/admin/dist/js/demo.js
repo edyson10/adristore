@@ -53,7 +53,7 @@
     class: 'p-3 control-sidebar-content'
   })
 
-  $sidebar.append($container)
+
 
   // Checkboxes
 

@@ -1,7 +1,9 @@
 <?php
-if (isset($_SESSION["Administrador"])) {
-  header("location:Administrador");
-}
+
+if (!empty($_SESSION["Administrador"])) {
+  header("Location: Administrador");
+} 
+
 ?>
 
 <body class="hold-transition login-page" style="background-image: linear-gradient(90deg, red, #FE93A7);">
@@ -12,9 +14,9 @@ if (isset($_SESSION["Administrador"])) {
         <a href="" class="h1" style="font-family: 'Pacifico', cursive; font-size: 35px; margin-bottom: 10px; color: #303433;"><b>Adri Store</b></a>
       </div>
       <div class="card-body">
-        <form role="form" method="POST" id="formIngresarAdministrador">
+        <form role="form" id="formIngresarAdministrador" name="formIngresarAdministrador" method="POST">
           <div class="input-group mb-3">
-            <input type="email" class="form-control" id="ingresarCorreoAdministrador" name="ingresarCorreoAdministrador" placeholder="Correo">
+            <input type="text" class="form-control" id="correo" name="correo" placeholder="Correo">
             <div class="input-group-append">
               <div class="input-group-text">
                 <span class="fas fa-envelope"></span>
@@ -22,7 +24,7 @@ if (isset($_SESSION["Administrador"])) {
             </div>
           </div>
           <div class="input-group mb-3">
-            <input type="password" class="form-control" id="ingresarContraseniaAdministrador" name="ingresarContraseniaAdministrador" placeholder="Contrase&ntilde;a">
+            <input type="password" class="form-control" id="contrasena" name="contrasena" placeholder="Contrase&ntilde;a">
             <div class="input-group-append">
               <div class="input-group-text">
                 <span class="fas fa-lock"></span>

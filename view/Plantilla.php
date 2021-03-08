@@ -32,8 +32,15 @@ if (isset($_GET["ubicacion"])) {
             <link rel="stylesheet" href="view/presentacion/admin/plugins/daterangepicker/daterangepicker.css">
             <!-- summernote -->
             <link rel="stylesheet" href="view/presentacion/admin/plugins/summernote/summernote-bs4.min.css">
+            <!--======================== SWEETALERT 2 CSS ========================================-->
+            <link rel="stylesheet" href="view/presentacion/admin/dist/css/sweetalert2.min.css">
         </head>
-            <?php include "modulos/navegacion/" . $_GET["ubicacion"] . ".php"; ?> 
+        
+            <?php 
+            session_start();
+            include "modulos/navegacion/" . $_GET["ubicacion"] . ".php"; 
+            ?> 
+
             <!-- jQuery -->
             <script src="view/presentacion/admin/plugins/jquery/jquery.min.js"></script>
             <!-- Bootstrap 4 -->
@@ -64,13 +71,21 @@ if (isset($_GET["ubicacion"])) {
             <script src="view/presentacion/admin/plugins/summernote/summernote-bs4.min.js"></script>
             <!-- overlayScrollbars -->
             <script src="view/presentacion/admin/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
-            <!-- AdminLTE for demo purposes -->
-            <script src="vista/presentacion/admin/dist/js/demo.js"></script>
+          
             <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
             <script src="view/presentacion/admin/dist/js/pages/dashboard.js"></script>
+            <!-- jquery-validation -->
+            <script src="view/presentacion/admin/plugins/jquery-validation/jquery.validate.min.js"></script>
+            <script src="view/presentacion/admin/plugins/jquery-validation/additional-methods.min.js"></script>
+            <!--======================== SWEETALERT 2 JS ========================================-->
+            <script src="view/presentacion/admin/dist/js/sweetalert2.min.js"></script>
+            <!------------- CODIGO JAVASCRIPT  ----------------------------->
+            <script src="view/presentacion/js/alertas.js"></script>
+            
+            <script src="view/presentacion/js/login.js"></script>
         </body>
         </html>
-    <?php } else { ?>
+    <?php } else if ($_GET["ubicacion"] == "Inicio" || $_GET["ubicacion"] == "Contacto") { ?>
         <!DOCTYPE html>
         <html>
         <head>
@@ -118,8 +133,7 @@ if (isset($_GET["ubicacion"])) {
 
             session_start();
             include_once 'modulos/Header.php';
-            $controlador = new Controlador();
-            $controlador->generarVista();
+            include "modulos/navegacion/" . $_GET["ubicacion"] . ".php";
             include_once 'modulos/Footer.php';
 
             ?>
@@ -168,7 +182,7 @@ if (isset($_GET["ubicacion"])) {
             <!--===============================================================================================-->
             <script src="view/presentacion/ecommerce/vendor/isotope/isotope.pkgd.min.js"></script>
             <!--===============================================================================================-->
-            <script src="view/presentacion/ecommerce/vendor/sweetalert/sweetalert.min.js"></script>
+            <script src="view/presentacion/admin/dist/js/sweetalert2.min.js"></script>
             <script>
                 $('.js-addwish-b2').on('click', function(e) {
                     e.preventDefault();
@@ -223,11 +237,11 @@ if (isset($_GET["ubicacion"])) {
             </script>
             <!--===============================================================================================-->
             <script src="view/presentacion/ecommerce/js/main.js"></script>
-            <script src="view/presentacion/ecommerce/js/alertas.js"></script>
-            <script src="view/presentacion/ecommerce/js/administrador.js"></script>
         </body>
         </html>
 <?php 
+    } else {
+        header('Location: Inicio');
     }
 } else  {
     header('Location: Inicio');

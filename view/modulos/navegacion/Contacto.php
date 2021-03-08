@@ -42,6 +42,8 @@
                         </span>
 
                         <p class="stext-115 cl6 size-213 p-t-18">
+                            Calle 17 # 7 -70 <br> 
+                            Barrio La Libertad <br> 
                             C&uacute;cuta, Norte de Santander
                         </p>
                     </div>
@@ -58,7 +60,7 @@
                         </span>
 
                         <p class="stext-115 cl1 size-213 p-t-18">
-                            +57 800 1236879
+                            (+57) 314 619 8497
                         </p>
                     </div>
                 </div>
